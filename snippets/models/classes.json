@@ -26,6 +26,7 @@
 		"prefix": "Model",
 		"body": [
 			"class ${1:MODELNAME}(models.Model):",
+			"\t\t$2",
 			"",
 			"\tclass Meta:",
 			"\t\tverbose_name = '$1'",
