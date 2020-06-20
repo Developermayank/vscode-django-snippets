@@ -31,7 +31,7 @@
 	},
 	"mchar": {
 		"prefix": "mchar",
-		"body": "${1:FIELDNAME} = models.CharField($2, max_length=${3:50})",
+		"body": "${1:FIELDNAME} = models.CharField(${1:VERBOSE NAME}, max_length=${2:50})",
 		"description": "CharField (mchar)",
 		"scope": "source.python"
 	},
@@ -220,5 +220,5 @@
 		"body": "${1:FIELDNAME} = ArrayField()",
 		"description": "ArrayField (marray).\n\n*PostgreSQL specific model fields*.\n\nA field for storing lists of data\n\n",
 		"scope": "source.python"
-	}		
+	}
 }
