@@ -31,7 +31,7 @@
 	},
 	"mchar": {
 		"prefix": "mchar",
-		"body": "${1:FIELDNAME} = models.CharField(${1:VERBOSE NAME}, max_length=${2:50})",
+		"body": "${1:FIELDNAME} = models.CharField($2, max_length=${3:50})",
 		"description": "CharField (mchar)",
 		"scope": "source.python"
 	},
