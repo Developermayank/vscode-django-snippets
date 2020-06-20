@@ -1,6 +1,6 @@
 {
     "name": "vscode-django-snippet",
-    "displayName": "Djaneiro - Django Snippets",
+    "displayName": "VsCode - Django Snippets",
     "description": "A collection of snippets for django templates, models, views, fields & forms. Ported from Djaneiro for SublimeText",
     "version": "1.0.1",
     "publisher": "DeveloperMayank",
