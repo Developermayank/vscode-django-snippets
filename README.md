@@ -31,7 +31,7 @@ Add this to settings to get Emmet support for your Django Templates
 | registermadmin   | method | ``admin.site.register(<Model>, <ModelAdmin>)`` |
 | fieldsets        | option | ``For more complex layout in ModelAdmin``      |
 
-### Snippets for Django Form 
+### Snippets for Django Form
 
 |  Abbreviation  |  Type  |                        Code - Description                         |
 | -------------- | ------ | ----------------------------------------------------------------- |
@@ -136,6 +136,7 @@ Add this to settings to get Emmet support for your Django Templates
 | str                | method | ``Unicode default python3``                                         |
 | get\_absolute\_url | method | ``Calculate the canonical URL for an object``                       |
 | receiver           | method | ``connect a receiver to a signal``                                  |
+| save               | method | ``Override save method``                                            |
 
 
 ### Snippets for Django Views
@@ -252,6 +253,6 @@ Updated logo
 Initial port of Djaneiro for Visual Studio Code
 
 
-##TODO: 
+##TODO:
 
-- 
+-

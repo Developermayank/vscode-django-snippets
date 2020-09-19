@@ -27,9 +27,15 @@
         ],
         "description": "",
         "scope": "source.python"
+    },
+    "save": {
+        "prefix": "save",
+        "body": [
+            "def save(self, *args, **kwargs):",
+            "\tdo_something()",
+            "\tsuper().save(*args, **kwargs)"
+        ],
+        "description": "Overriding Save Method",
+        "scope": "source.python"
     }
 }
-
-
-    
-
