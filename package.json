@@ -1,10 +1,10 @@
 {
-    "name": "vscode-djaneiro",
-    "displayName": "Djaneiro - Django Snippets",
-    "description": "A collection of snippets for django templates, models, views, fields & forms. Ported from Djaneiro for SublimeText",
-    "version": "1.4.1",
-    "publisher": "thebarkman",
-    "icon": "images/djaneiro.png",
+    "name": "vscode-django-snippets",
+    "displayName": "VsCode - Django Snippets",
+    "description": "A collection of snippets for django templates, models, views, fields & forms",
+    "version": "1.0.0",
+    "publisher": "developermayank",
+    "icon": "images/dm_icon.png",
     "galleryBanner": {
         "color": "#0C4B33",
         "theme": "dark"
@@ -22,7 +22,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/ScottBarkman/vscode-djaneiro"
+        "url": "git@github.com:Developermayank/vscode-django-snippets.git"
     },
     "contributes": {
         "languages": [
@@ -38,8 +38,8 @@
                 "id": "html",
                 "extensions": [".html", ".htm"]
             }
-        
-		
+
+
         ],
         "grammars": [
             {
@@ -47,12 +47,12 @@
                 "scopeName": "text.html.django",
                 "path": "./syntaxes/django-html.json"
             }
-        ],        
+        ],
         "snippets": [
 		{
 			"language": "python",
 			"path": "./snippets/admin/classes.json"
-		},            
+		},
 		{
 			"language": "python",
 			"path": "./snippets/admin/options.json"
@@ -80,7 +80,7 @@
 		{
 			"language": "python",
 			"path": "./snippets/forms/methods.json"
-		},            
+		},
 		{
 			"language": "python",
 			"path": "./snippets/models/classes.json"
@@ -112,7 +112,7 @@
 		{
 			"language": "python",
 			"path": "./snippets/views/methods.json"
-		},			
+		},
 		{
 			"language": "python",
 			"path": "./snippets/views/imports.json"
